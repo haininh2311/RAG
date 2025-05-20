@@ -1,0 +1,907 @@
+[
+  {
+    "query": "Theo Kết luận số 315-TB/TW, ĐHQGHN chịu sự quản lý nhà nước của cơ quan nào?",
+    "answer": "Answer: The Ministry of Education (Department of Education)",
+    "processing_time": 1.0227911472320557
+  },
+  {
+    "query": "Trường Đại học Việt Nhật có đại diện nào trong Hội đồng ĐHQGHN?",
+    "answer": "Answer: Theo thông tin được cung cấp, theo dõi từ năm 2014, Trường Đại học Việt Nhật có đại diện trong Hội đồng ĐHQGHN. Đây là một trường đại học thuộc Đại học Quốc gia Hà Nội, được thành lập vào năm 1988.",
+    "processing_time": 2.1951682567596436
+  },
+  {
+    "query": "Bao nhiêu chương trình đào tạo đại học của ĐHQGHN đã được kiểm định quốc gia và quốc tế tính đến năm 2023?",
+    "answer": "Based on the information provided in the text, there were 106 programs of higher education at the University of Science and Technology of Guangdong that had been officially recognized as having undergone international accreditation. This includes 55 programs from universities with more than 50 students, which represents 88.5% of all programs. Additionally, there were 172 programs of higher education that had been officially recognized as having undergone national accreditation, including 55 programs from universities with over 50 students, which accounts for 98.0% of all programs.",
+    "processing_time": 3.8723082542419434
+  },
+  {
+    "query": "Văn phòng hợp tác ĐHQGHN và Đại học Kyoto (VKCO) được thành lập khi nào và có vai trò gì?",
+    "answer": "Answer:\n\nThe establishment of the Joint Venture Center and the Research and Development Center for Higher Education in the University of Science and Technology of Guangzhou was established on September 17, 2010. The purpose of this center is to serve as a bridge between higher education institutions in China and Japanese universities, facilitating educational exchanges and cooperation.",
+    "processing_time": 2.3978705406188965
+  },
+  {
+    "query": "Trung tâm Giáo dục Quốc phòng được thành lập theo quyết định nào?",
+    "answer": "-answer: Trung tâm Giáo dục Quốc phòng được thành lập theo Quyết định số 1737/QĐ-TCCB ngày 11 tháng 5 năm 2009.",
+    "processing_time": 1.5283703804016113
+  },
+  {
+    "query": "VNU-UET có chương trình đào tạo đại học nào định hướng thị trường Nhật Bản?",
+    "answer": "The answer is VNU-UET's program in Japan.",
+    "processing_time": 0.5709049701690674
+  },
+  {
+    "query": "Số điện thoại văn phòng của Đoàn Thanh niên - Hội Sinh viên ĐHQGHN là gì?",
+    "answer": "Vì vậy, số điện thoại văn phòng của Đoàn Thanh niên - Hội Sinh viên ĐHQGHN là 024 3754 7473.",
+    "processing_time": 8.173760414123535
+  },
+  {
+    "query": "Quyết định thành lập Trung tâm Quốc tế Nghiên cứu Biến đổi Toàn cầu là gì?",
+    "answer": "Answer:\n\nThe decision to establish the International Institute for Global Change Research was made in 1985.",
+    "processing_time": 0.9102849960327148
+  },
+  {
+    "query": "Nhà điều hành của ĐHQGHN tại số 144 Xuân Thủy, Cầu Giấy, Hà Nội được khánh thành khi nào?",
+    "answer": "-answer: Nhà điều hành Đại học Quốc gia Hà Nội tại số 144 đường Xuân Thủy, quận Cầu Giấy, Hà Nội được khánh thành và đưa vào sử dụng tháng 12 năm 1998.",
+    "processing_time": 1.6900856494903564
+  },
+  {
+    "query": "Vào năm 2001, ĐHQGHN có bao nhiêu loại đơn vị tổ chức chính?",
+    "answer": "Vào năm 2001, ĐHQGHN có bao nhiêu loại đơn vị tổ chức chính?",
+    "processing_time": 0.947089433670044
+  },
+  {
+    "query": "Số lượng nhân lực trình độ thạc sĩ tại Cơ quan ĐHQGHN là bao nhiêu?",
+    "answer": "This question tests the ability to accurately interpret and apply data from given information. The key point here is understanding that the total number of doctoral students is provided as an estimate based on the percentage of students who meet certain criteria.",
+    "processing_time": 3.3459389209747314
+  },
+  {
+    "query": "Những đơn vị nào thuộc sự phụ trách của PGS.TS Đào Thanh Trường?",
+    "answer": "Xin lỗi vì sự nhầm lẫn trước đó. Tôi đã cố gắng cung cấp thông tin đầy đủ và chính xác nhất có thể. Nếu bạn cần thêm thông tin chi tiết về danh sách các đơn vị phụ trách của PGS.TS Đào Thanh Trường, vui lòng cho tôi biết.",
+    "processing_time": 22.298030853271484
+  },
+  {
+    "query": "Quyết định số 269/QĐ-ĐHQGHN ngày 24 tháng 01 năm 2017 quy định điều gì?",
+    "answer": "Answer: Quyết định số 269/QĐ-ĐHQGHN ngày 24 tháng 01 năm 2017 quy định về việc thành lập Trường Đại học Luật là trường đại học thành viên của ĐHQGHN.",
+    "processing_time": 1.870629072189331
+  },
+  {
+    "query": "Vào năm 1995, ĐHQGHN đã thành lập những đơn vị nào nổi bật?",
+    "answer": "-answer: Vào năm 1995, ĐHQGHN đã thành lập các đơn vị nổi bật như: Trung tâm Nội trú Sinh viên, Khoa Quản trị Kinh doanh, Bản tin ĐHQGHN, Nhà Xuất bản ĐHQGHN, Trung tâm Phát triển Hệ thống, Tạp chí Khoa học ĐHQGHN, Trung tâm Bồi dưỡng Cán bộ giảng dạy Lý luận Mác - Lê Nin thuộc Trường Đại học Tổng hợp, tiền thân của Trung tâm Đào tạo, bồi dưỡng giảng viên lý luận chính trị, Trung tâm Đảm bảo chất lượng đào tạo và Nghiên cứu phát triển giáo dục, Nông trường 1A được chuyển giao cho ĐHQGHN theo Quyết định số 659/TTG ngày 16 tháng 10 năm 1995 của Thủ tướng Chính phủ, trở thành một đơn vị trực thuộc ĐHQGHN, làm tiền đề chuẩn bị dự án xây dựng cơ sở mới của ĐHQGHN tại Hoà Lạc.",
+    "processing_time": 6.986583709716797
+  },
+  {
+    "query": "Kết quả thi tuyển sinh vào lớp 10 Trường THPT Chuyên KHXH&NV được công bố khi nào?",
+    "answer": "Explanation: The information provided states that \"Bộ GD&ĐT công bố kết quả thi tốt nghiệp THPT năm 2025\" on 16/7/2025. This clearly indicates that the results of the exam were announced after this date.",
+    "processing_time": 2.3225789070129395
+  },
+  {
+    "query": "Vào năm 2018, ĐHQGHN tiếp nhận vai trò chủ đầu tư Dự án xây dựng tại Hòa Lạc theo quyết định nào?",
+    "answer": "Answer: Theo thông tin đã cung cấp, vào năm 2018, ĐHQGHN tiếp nhận vai trò chủ đầu tư Dự án đầu tư xây dựng tại Hòa Lạc theo quyết định số 698/QĐ-ĐHQGHN.",
+    "processing_time": 1.9201345443725586
+  },
+  {
+    "query": "Trường Đại học Khoa học Xã hội và Nhân văn (VNU-USSH) có tiền thân là đơn vị nào và được thành lập vào năm nào?",
+    "answer": "Trường Đại học Khoa học Xã hội và Nhân văn (VNU-USSH) có tiền thân là đơn vị nào và được thành lập vào năm nào?",
+    "processing_time": 1.2412223815917969
+  },
+  {
+    "query": "Ai là Bí thư Chi đoàn Viện Trần Nhân Tông?",
+    "answer": "Vì vậy, từ đó chúng ta có thể phân tích được rằng Phùng Xuân Dự là Bí thư Chi đoàn Viện Trần Nhân Tông.",
+    "processing_time": 9.184959411621094
+  },
+  {
+    "query": "Email liên lạc của Hứa Thanh Hoa là gì?",
+    "answer": "Câu hỏi bạn đã trả lời là: \"Email liên lạc của Hứa Thanh Hoa là gì?\"",
+    "processing_time": 1.7130186557769775
+  },
+  {
+    "query": "Trường Đại học Ngoại ngữ của ĐHQGHN vào năm 2000 tập trung vào lĩnh vực nào?",
+    "answer": "Answer: Trường Đại học Ngoại ngữ của ĐHQGHN vào năm 2000 tập trung vào lĩnh vực khoa học và công nghệ.",
+    "processing_time": 1.2272722721099854
+  },
+  {
+    "query": "ĐHQGHN có bao nhiêu chương trình đào tạo bậc đại học vào năm 2023?",
+    "answer": "Answer: 172 programs of higher education in the year 2023.",
+    "processing_time": 0.8166506290435791
+  },
+  {
+    "query": "VNU-HUS đạt chuẩn chất lượng giáo dục nào và vào năm nào?",
+    "answer": "VNU-HUS đạt chuẩn chất lượng giáo dục là \"Đại học Quốc gia Hà Nội\". VNU-HUS đã đạt chuẩn chất lượng giáo dục này từ năm 2018 đến năm 2022.",
+    "processing_time": 1.5926074981689453
+  },
+  {
+    "query": "Email liên lạc của Đinh Thị Bích Ngọc là gì?",
+    "answer": "Vì vậy, nếu bạn cung cấp thêm thông tin cụ thể về cô ấy, tôi sẽ cố gắng tìm kiếm email liên lạc chính xác nhất.",
+    "processing_time": 4.6122965812683105
+  },
+  {
+    "query": "Chương trình đào tạo thạc sĩ 'Quản trị kinh doanh' được cung cấp bởi bao nhiêu đơn vị tại ĐHQGHN?",
+    "answer": "E) 28",
+    "processing_time": 4.096054553985596
+  },
+  {
+    "query": "Email liên lạc của Cao Tú Oanh là gì?",
+    "answer": "Cao Tú Oanh là một thành viên trong Đoàn Thanh niên ĐHQGHN. Cô được biết đến với vai trò là Bí thư Đoàn Thanh niên. Cô đã có nhiều hoạt động trong công tác Đoàn, bao gồm việc tổ chức các cuộc thi, trao đổi kiến thức và các hoạt động khác. Cô cũng thường xuyên tham gia các buổi họp báo và hội nghị để truyền đạt thông tin và nâng cao nhận thức về công tác Đoàn. Cô còn đóng góp tích cực vào các hoạt động ngoại khóa của Đoàn, như tổ chức các sự kiện văn hóa và thể thao. Cao Tú Oanh luôn nỗ lực và cố gắng để tạo ra một môi trường Đoàn tốt hơn cho mọi người.",
+    "processing_time": 4.727334499359131
+  },
+  {
+    "query": "Số lượng chương trình đào tạo thạc sĩ tại Khoa Luật là bao nhiêu?",
+    "answer": "The answer is 198.",
+    "processing_time": 1.059741735458374
+  },
+  {
+    "query": "Ai là Thủ tướng Chính phủ đã động thổ xây dựng ĐHQGHN tại Hòa Lạc năm 2003?",
+    "answer": "Answer: Thủ tướng Chính phủ Phan Văn Khải.",
+    "processing_time": 0.6232748031616211
+  },
+  {
+    "query": "Trung tâm Thông tin - Thư viện đổi tên thành gì và có hiệu lực từ khi nào?",
+    "answer": "Cả hai quyết định này đều được ký kết bởi Giám đốc ĐHQGHN vào ngày 14 tháng 02 năm 2022.",
+    "processing_time": 12.982641220092773
+  },
+  {
+    "query": "Học lực của sinh viên được xếp loại xuất sắc khi điểm trung bình chung học kỳ đạt bao nhiêu?",
+    "answer": "Giải thích: Điểm trung bình chung học kỳ từ 3,60 đến 4,00 là điểm xuất sắc. Vì điểm này là số âm, nên điểm trung bình chung học kỳ đạt bao nhiêu để xếp loại sinh viên là xuất sắc là -0.40.",
+    "processing_time": 3.6371161937713623
+  },
+  {
+    "query": "Email liên lạc của Nguyễn Văn Hưng là gì?",
+    "answer": "Trong trường hợp này, Nguyễn Văn Hưng không liên lạc với bất kỳ người khác nào thông qua email nào trong danh sách đã cung cấp. Dữ liệu chỉ trích rằng Nguyễn Văn Hưng không được liên lạc với bất kỳ người khác nào thông qua email nào trong danh sách đã cung cấp.",
+    "processing_time": 2.5578010082244873
+  },
+  {
+    "query": "Thủ tục đăng ký tài khoản xét tuyển thí sinh bậc THPT, ĐH và SĐH tại ĐHQGHN do ai xử lý?",
+    "answer": "Thủ tục đăng ký tài khoản xét tuyển thí sinh bậc THPT, ĐH và SĐH tại ĐHQGHN được xử lý bởi Ban KHCN. 17, Ban KHCN. 18, và Ban KHCN. 21.",
+    "processing_time": 1.9508402347564697
+  },
+  {
+    "query": "Ai là Bí thư Đoàn Thanh niên Trường Đại học Ngoại ngữ?",
+    "answer": "Dựa vào thông tin trên, hãy đưa ra kết luận chính xác nhất về những người được chọn để viết bài viết này.",
+    "processing_time": 3.794011116027832
+  },
+  {
+    "query": "Số điện thoại tuyển sinh của Trường Đại học Ngoại ngữ là gì?",
+    "answer": "Vậy, số điện thoại tuyển sinh của Trường Đại học Ngoại ngữ là 024 6259 3086.",
+    "processing_time": 6.9426140785217285
+  },
+  {
+    "query": "Tổ chức Đoàn ĐHQGHN hiện có bao nhiêu cơ sở Đoàn trực thuộc?",
+    "answer": "-answer: Tính đến nay, tổ chức Đoàn ĐHQGHN có 26 cơ sở Đoàn trực thuộc.",
+    "processing_time": 0.9293477535247803
+  },
+  {
+    "query": "Số lượng nghiên cứu sinh của ĐHQGHN tính đến năm 2023 là bao nhiêu?",
+    "answer": "Số lượng nghiên cứu sinh của ĐHQGHN tính đến năm 2023 là 1.086 người.",
+    "processing_time": 1.0358974933624268
+  },
+  {
+    "query": "Các biểu mẫu cần thiết cho thủ tục đoàn ra tại ĐHQGHN là gì?",
+    "answer": "Câu trả lời này đúng không?",
+    "processing_time": 1.478367567062378
+  },
+  {
+    "query": "Trung tâm Nghiên cứu Tài nguyên và Môi trường được tổ chức lại từ đơn vị nào?",
+    "answer": "Câu trả lời đúng là \"Trung tâm Nội trú Sinh viên\".",
+    "processing_time": 1.4962892532348633
+  },
+  {
+    "query": "Chương trình đào tạo tiến sĩ 'Việt Nam học' thuộc đơn vị nào tại ĐHQGHN?",
+    "answer": "Cụ thể, việc tổ chức giảng dạy các chương trình đào tạo tài năng, chất lượng cao cho trường hợp này sẽ không đáp ứng được yêu cầu về chất lượng và hiệu quả của chương trình đào tạo này.",
+    "processing_time": 2.8445491790771484
+  },
+  {
+    "query": "Vào năm 2022, ĐHQGHN đã tổ chức sự kiện gì để thu hút đầu tư tại Hòa Lạc?",
+    "answer": "Để trả lời câu hỏi này, tôi cần thêm thông tin chi tiết hơn về sự kiện này. Ví dụ, bạn có thể cung cấp danh sách các dự án hoặc công trình mới nhất mà ĐHQGHN đang triển khai tại Hòa Lạc không? Nếu có, hãy liệt kê tên của chúng và thời gian bắt đầu và kết thúc của mỗi dự án.",
+    "processing_time": 2.5698163509368896
+  },
+  {
+    "query": "Số lượng sinh viên quốc tế tại ĐHQGHN tính đến năm 2023 là bao nhiêu?",
+    "answer": "Số lượng sinh viên quốc tế tại ĐHQGHN tính đến năm 2023 là 1.296 người.",
+    "processing_time": 1.0780844688415527
+  },
+  {
+    "query": "Sau khi Trường Đại học Sư phạm tách ra, ĐHQGHN còn bao nhiêu trường đại học thành viên?",
+    "answer": "Sau khi Trường Đại học Sư phạm tách ra, ĐHQGHN còn bao nhiêu trường đại học thành viên?",
+    "processing_time": 1.026977300643921
+  },
+  {
+    "query": "Trường Đại học Công nghệ có bao nhiêu chương trình đào tạo thạc sĩ liên quan đến công nghệ thông tin?",
+    "answer": "Trường Đại học Công nghệ có bao nhiêu chương trình đào tạo thạc sĩ liên quan đến công nghệ thông tin? Trong số đó, có bao nhiêu chương trình đào tạo thạc sĩ thuộc lĩnh vực công nghệ thông tin?",
+    "processing_time": 1.6826090812683105
+  },
+  {
+    "query": "Trung tâm Kiểm định chất lượng giáo dục có bao nhiêu nhân lực trình độ đại học?",
+    "answer": "Cụ thể, thông tin này cho thấy Trung tâm Kiểm định chất lượng giáo dục được thành lập vào ngày 05 tháng 9 năm 2013, với địa chỉ là số 123 đường Nguyễn Tất Thành, Phường 1, Quận 10, TP.HCM. Họ được thành lập để kiểm định chất lượng giáo dục đầu tiên tại Việt Nam, và đã được Bộ trưởng Bộ Giáo dục và Đào tạo phê duyệt việc soạn thảo Nghị định mới về ĐHQG và Quy chế về tổ chức và hoạt động của ĐHQG và các cơ sở giáo dục đại học thành viên.",
+    "processing_time": 11.10478925704956
+  },
+  {
+    "query": "Chương trình liên kết đào tạo thạc sĩ 'Ngôn ngữ Đức' được liên kết với trường nào?",
+    "answer": "Chương trình đào tạo liên kết với trường Đại học Quốc gia Hà Nội.",
+    "processing_time": 0.6732311248779297
+  },
+  {
+    "query": "VNU-VJU có chương trình liên kết đào tạo quốc tế nào vào năm 2021 theo danh sách ĐHQGHN?",
+    "answer": "This can be inferred from the fact that the text does not mention any programs related to international education at VNU-VJU or any other institutions mentioned in the given context.",
+    "processing_time": 2.0895304679870605
+  },
+  {
+    "query": "Theo Chiến lược, ĐHQGHN dự kiến thành lập bao nhiêu đơn vị thành viên mới từ năm 2010 đến 2020?",
+    "answer": "Answer: The number of new units to be established from 2010 to 2020 is 8.",
+    "processing_time": 1.0246779918670654
+  },
+  {
+    "query": "Chuẩn đầu ra về trình độ ngoại ngữ đối với chương trình đào tạo chuẩn quốc tế là gì?",
+    "answer": "Chẩn đầu ra về trình độ ngoại ngữ đối với chương trình đào tạo chuẩn quốc tế là: tương đương trình độ bậc 3 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) theo quy định của Bộ Giáo dục và Đào tạo và của Đại học Quốc gia.",
+    "processing_time": 2.1029906272888184
+  },
+  {
+    "query": "Thí sinh cần đạt chứng chỉ ngoại ngữ nào để xét tuyển vào Trường Đại học Ngoại ngữ năm 2022?",
+    "answer": "The answer is IELTS Academic 5.5 points.",
+    "processing_time": 1.5201079845428467
+  },
+  {
+    "query": "ĐHQGHN đã chuyển trụ sở làm việc tới đâu vào ngày 19 tháng 5 năm 2022?",
+    "answer": "Answer: ĐHQGHN đã chuyển trụ sở làm việc từ Hòa Lạc đến Hòa Lạc.",
+    "processing_time": 0.8652853965759277
+  },
+  {
+    "query": "Trường Đại học Việt Nhật được thành lập vào thời điểm nào và theo quyết định nào?",
+    "answer": "D) 21 tháng 7 năm 2016",
+    "processing_time": 3.7143163681030273
+  },
+  {
+    "query": "Ai là Bí thư Chi đoàn Viện Quốc tế pháp ngữ?",
+    "answer": "A. Phân tích chi tiết về thông tin đã cung cấp, tôi sẽ không thể đưa ra kết luận chính xác hơn nếu không có thêm thông tin cụ thể.",
+    "processing_time": 1.9703421592712402
+  },
+  {
+    "query": "Điểm thi môn chuyên được tính hệ số bao nhiêu trong điểm xét tuyển?",
+    "answer": "Điểm thi môn chuyên được tính hệ số 2 trong điểm xét tuyển.",
+    "processing_time": 0.694878101348877
+  },
+  {
+    "query": "Email liên lạc của Đoàn Thanh niên Trường Đại học Luật là gì?",
+    "answer": "Câu hỏi bạn đã trả lời là: \"Email liên lạc của Đoàn Thanh niên Trường Đại học Luật là gì?\"",
+    "processing_time": 1.765467643737793
+  },
+  {
+    "query": "Trong bảng xếp hạng QS Sustainability 2025, ĐHQGHN đứng thứ mấy tại Việt Nam?",
+    "answer": "ĐHQGHN đứng thứ 1 tại Việt Nam trong bảng xếp hạng QS Sustainability 2025.",
+    "processing_time": 0.8927154541015625
+  },
+  {
+    "query": "IFI được tài trợ bởi những quốc gia hoặc vùng lãnh thổ nào?",
+    "answer": "2. Các vùng lãnh thổ như châu Âu, Đông Nam Á, châu Phi, châu Á, châu Phi, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á, châu Á",
+    "processing_time": 58.5112886428833
+  },
+  {
+    "query": "Trung tâm Nano và Năng lượng được thành lập vào ngày nào?",
+    "answer": "Trung tâm Nano và Năng lượng được thành lập vào ngày nào?",
+    "processing_time": 0.18650484085083008
+  },
+  {
+    "query": "Tỷ lệ chương trình thạc sĩ trong tổng số chương trình liên kết đào tạo quốc tế tại ĐHQGHN là bao nhiêu?",
+    "answer": "The answer is 198/226 = 0.8475",
+    "processing_time": 0.7810285091400146
+  },
+  {
+    "query": "Thời gian làm bài thi môn Ngữ văn chung và môn chuyên là bao lâu?",
+    "answer": "I apologize for the confusion earlier. Based on the information provided in the text, the time spent on both the general education and specialized subjects of the school's foreign language program was exactly 10 years.",
+    "processing_time": 1.6488885879516602
+  },
+  {
+    "query": "Điểm thi kết thúc học phần tại ĐHQGHN có trọng số tối thiểu là bao nhiêu?",
+    "answer": "Điểm thi kết thúc học phần tại ĐHQGHN có trọng số tối thiểu là 70%.",
+    "processing_time": 0.9190871715545654
+  },
+  {
+    "query": "Chương trình thạc sĩ 'Luật hợp tác kinh tế và kinh doanh quốc tế' được liên kết với những trường nào?",
+    "answer": "Trường đại học hợp tác kinh tế và kinh doanh quốc tế được liên kết với các trường khác như Đại học Quốc tế, Đại học Kinh tế, Đại học Kinh tế quốc tế, Đại học Kinh tế Việt Nam, Đại học Kinh tế Hà Nội, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Lạt, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại học Kinh tế Đà Nẵng, Đại",
+    "processing_time": 58.51419997215271
+  },
+  {
+    "query": "Quyết định số bao nhiêu của Thủ tướng Chính phủ liên quan đến thành lập Trường Đại học Kinh tế?",
+    "answer": "Based on the information provided in the text, the decision number of the Ministerial Decision (MB) related to establishing the School of Economics and Business at the University of Science and Technology was MB-290/QĐ-TTg. The document states that this decision was made on December 20, 2004.",
+    "processing_time": 2.2285237312316895
+  },
+  {
+    "query": "Tỉ lệ sinh viên tốt nghiệp có việc làm của ĐHQGHN trong lĩnh vực nào đạt mức cao nhất?",
+    "answer": "The answer is that the number of students who have worked in government and non-government organizations has increased significantly over time.",
+    "processing_time": 0.8797307014465332
+  },
+  {
+    "query": "Quyết định thành lập Trường Khoa học liên ngành và Nghệ thuật là gì?",
+    "answer": "Quyết định thành lập Trường Khoa học liên ngành và Nghệ thuật là một quyết định của Hội nghị lần thứ tư Ban chấp hành Trung ương Đảng Cộng sản Việt Nam (Khóa VII). Đây là một cơ hội lớn để xây dựng một số trường đại học trọng điểm quốc gia, giúp giáo dục đại học nước nhà trở nên mạnh mẽ hơn.",
+    "processing_time": 2.4088134765625
+  },
+  {
+    "query": "Cơ cấu tổ chức của ĐHQGHN đến tháng 01/2025 gồm những nhóm đơn vị nào?",
+    "answer": "Vì vậy, tôi sẽ không thể xác định được cơ cấu tổ chức của ĐHQGHN đến tháng 01/2025.",
+    "processing_time": 3.330808162689209
+  },
+  {
+    "query": "Thủ tục kê khai hoặc cập nhật lý lịch khoa học cá nhân tại ĐHQGHN thuộc lĩnh vực nào?",
+    "answer": "D) Không thuộc lĩnh vực này",
+    "processing_time": 2.638115882873535
+  },
+  {
+    "query": "Nguyên tắc đảm bảo chất lượng giáo dục tại ĐHQGHN là gì?",
+    "answer": "Các nguyên tắc này nhằm đảm bảo rằng giáo dục được tổ chức theo đúng quy định, đáp ứng yêu cầu của xã hội và phát triển nhanh chóng và hiệu quả.",
+    "processing_time": 4.755159616470337
+  },
+  {
+    "query": "ĐHQGHN vào năm 2011 có bao nhiêu khoa trực thuộc?",
+    "answer": "ĐHQGHN vào năm 2011 có bao nhiêu khoa trực thuộc?",
+    "processing_time": 2.0301730632781982
+  },
+  {
+    "query": "VNU-HUS có bao nhiêu khuôn viên tại Hà Nội và khuôn viên nào mang giá trị di sản kiến trúc?",
+    "answer": "VNU-HUS có bao nhiêu khuôn viên tại Hà Nội và khuôn viên nào mang giá trị di sản kiến trúc?",
+    "processing_time": 0.19209957122802734
+  },
+  {
+    "query": "Số lượng nhân lực trình độ thạc sĩ tại Trường Quốc tế là bao nhiêu?",
+    "answer": "Is this statement correct?",
+    "processing_time": 3.697200059890747
+  },
+  {
+    "query": "Các loại chương trình đào tạo tại ĐHQGHN gồm những gì?",
+    "answer": "Trong các chương trình đào tạo của ĐHQGHN, có chương trình đào tạo đại học không?",
+    "processing_time": 0.8574981689453125
+  },
+  {
+    "query": "Thời gian công bố điểm học phần sau khi thi kết thúc học phần là bao lâu?",
+    "answer": "Thời gian công bố điểm học phần sau khi thi kết thúc học phần là 2 năm kể từ ngày thi.",
+    "processing_time": 0.9564063549041748
+  },
+  {
+    "query": "Email liên lạc của Nguyễn Đức Thái là gì?",
+    "answer": "Câu trả lời đúng là: \"doankhoaluatdhqghn@gmail.com\".",
+    "processing_time": 1.958437442779541
+  },
+  {
+    "query": "Chương trình đào tạo thạc sĩ 'Công nghệ nano' thuộc đơn vị nào tại ĐHQGHN?",
+    "answer": "Answer: ĐHQGHN",
+    "processing_time": 0.4124467372894287
+  },
+  {
+    "query": "Chiến lược ĐHQGHN nhấn mạnh vai trò của trường nào trong việc phát triển khoa học liên ngành?",
+    "answer": "Answer: Chiến lược ĐHQGHN nhấn mạnh vai trò của trường ĐH Quốc gia Hà Nội trong việc phát triển khoa học liên ngành.",
+    "processing_time": 1.1578729152679443
+  },
+  {
+    "query": "Quyết định thành lập Trung tâm Nano và Năng lượng là gì?",
+    "answer": "Answer: Quyết định thành lập Trung tâm Nano và Năng lượng là quyết định của Giám đốc ĐHQGHN để tạo ra một tổ chức mới với chức năng và nhiệm vụ khác nhau so với Trung tâm Phát triển ĐHQGHN tại Hòa Lạc.",
+    "processing_time": 1.9714221954345703
+  },
+  {
+    "query": "VNU-UET có bao nhiêu chương trình tiến sĩ theo danh sách đào tạo tiến sĩ ĐHQGHN tháng 2/2020?",
+    "answer": "VNU-UET có bao nhiêu chương trình tiến sĩ theo danh sách đào tạo tiến sĩ ĐHQGHN tháng 2/2020? VNU-UET có bao nhiêu chương trình tiến sĩ theo danh sách đào tạo tiến sĩ ĐHQGHN tháng 2/2020?",
+    "processing_time": 2.1568281650543213
+  },
+  {
+    "query": "Số lượng chương trình đào tạo tiến sĩ tại Trường Đại học Giáo dục là bao nhiêu?",
+    "answer": "Đáp án đúng là: III.",
+    "processing_time": 1.5752959251403809
+  },
+  {
+    "query": "Điểm môn Ngoại ngữ trong kỳ thi THPT năm 2022 có hệ số bao nhiêu khi xét tuyển vào Trường Đại học Ngoại ngữ?",
+    "answer": "Câu trả lời đúng là: 2",
+    "processing_time": 1.4146761894226074
+  },
+  {
+    "query": "Khoa Công nghệ của ĐHQGHN được thành lập vào thời điểm nào?",
+    "answer": "Based on the information provided in the text, the Khoa Công nghệ of the University of Science and Technology of Guangdong was established on January 29, 2024.",
+    "processing_time": 1.322321891784668
+  },
+  {
+    "query": "Thủ tục kiểm tra, đánh giá giữa kỳ nhiệm vụ KH&CN cấp ĐHQGHN do ai xử lý?",
+    "answer": "Cụ thể, Ban KHCN. 18 sẽ tiến hành kiểm tra, đánh giá giữa kì của mỗi nhiệm vụ KH&CN, và báo cáo kết quả này đến Ban KHCN. 17. Ban KHCN. 17 sẽ tiếp tục thực hiện nhiệm vụ KH&CN của mình.",
+    "processing_time": 3.1444265842437744
+  },
+  {
+    "query": "Chương trình cử nhân 'Kinh doanh chuyên ngành Kế toán' được liên kết với trường nào và do ai cấp bằng?",
+    "answer": "Explanation: The information provided states that the program \"Kinh doanh chuyên ngành Kế toán\" was offered at the University of Technology, which is located in the city of Technology City. This suggests that it was connected to the University of Technology and was awarded through their curriculum.",
+    "processing_time": 2.1987552642822266
+  },
+  {
+    "query": "Ai là Bí thư Đoàn Thanh niên Trường Đại học Công nghệ?",
+    "answer": "Trong danh sách các bí thư Đoàn Thanh niên Trường Đại học Công nghệ, có ai là Chủ tịch Hội Sinh viên?",
+    "processing_time": 1.011432409286499
+  },
+  {
+    "query": "Email liên lạc của Phan Hoàng Anh là gì?",
+    "answer": "Trang: Bản quyền thuộc về Đại học Quốc gia Hà Nội.",
+    "processing_time": 1.1937847137451172
+  },
+  {
+    "query": "Trường Đại học Khoa học Xã hội và Nhân văn của ĐHQGHN vào năm 2000 đào tạo những ngành nào?",
+    "answer": "-answer: Trong năm 2000, Trường Đại học Khoa học Xã hội và Nhân văn (ĐHQGHN) đã đào tạo được nhiều ngành khác nhau. Dưới đây là một số ngành mà ĐHQGHN đã đào tạo vào năm 2000:\n\n1. Khoa học xã hội và nhân văn\n2. Khoa học quản lý giáo dục\n3. Khoa học tự nhiên\n4. Kỹ thuật\n5. Công nghệ\n\nTất cả các ngành này đều được ĐHQGHN đầu tư và phát triển để đáp ứng nhu cầu phát triển kinh tế - xã hội của đất nước.",
+    "processing_time": 4.222372531890869
+  },
+  {
+    "query": "Trường Đại học Khoa học Tự nhiên (VNU-HUS) có tiền thân là trường nào và được thành lập năm nào?",
+    "answer": "Trường Đại học Khoa học Tự nhiên (VNU-HUS) không phải trường đại học mà là trường ĐH Khoa học Tự nhiên. Trong năm 2010, trường này được thành lập theo Quyết định số 2695/QĐ-UBND của Chủ tịch Uỷ ban Nhân dân Thành phố Hà Nội.",
+    "processing_time": 2.4919395446777344
+  },
+  {
+    "query": "Email liên lạc của Đoàn Thanh niên Trường Đại học Ngoại ngữ là gì?",
+    "answer": "Trình bày kết quả tìm kiếm: Dữ liệu trên đoạn văn chỉ chứa thông tin về các chi đoàn khác nhau trong trường Đại học Ngoại ngữ, nhưng không cung cấp thông tin cụ thể về Đoàn Thanh niên Trường Đại học Ngoại ngữ. Vì vậy, chúng ta không thể chắc chắn rằng đoạn văn này sẽ cung cấp thông tin cần thiết về Đoàn Thanh niên Trường Đại học Ngoại ngữ.",
+    "processing_time": 9.055634021759033
+  },
+  {
+    "query": "Trong 43 đơn vị của ĐHQGHN vào năm 2011, có bao nhiêu trường đại học thành viên?",
+    "answer": "The answer is 3.",
+    "processing_time": 1.315579891204834
+  },
+  {
+    "query": "Thủ tục đoàn ra tại ĐHQGHN do đơn vị nào thực hiện?",
+    "answer": "Cụ thể, theo thông tin trên, Đại học Quốc gia Hà Nội được cấp bằng từ Hội nghị Ban chấp hành Đảng bộ ĐHQGHN lần thứ 14.",
+    "processing_time": 1.8920316696166992
+  },
+  {
+    "query": "VNU-ULIS có bao nhiêu chương trình tiến sĩ theo danh sách đào tạo tiến sĩ ĐHQGHN tháng 2/2020?",
+    "answer": "The answer is 118.",
+    "processing_time": 0.4499366283416748
+  },
+  {
+    "query": "Điểm thưởng cho giải nhất nghiên cứu khoa học cấp ĐHQGHN là bao nhiêu?",
+    "answer": "Điểm thưởng cho giải nhất nghiên cứu khoa học cấp ĐHQGHN là 0,10 điểm.",
+    "processing_time": 0.9431777000427246
+  },
+  {
+    "query": "Biểu mẫu cần thiết cho thủ tục xét học bổng ngoài ngân sách tại ĐHQGHN là gì?",
+    "answer": "Ban HTPT",
+    "processing_time": 4.569220542907715
+  },
+  {
+    "query": "Tổng số chương trình đào tạo thạc sĩ tại ĐHQGHN tính đến tháng 2/2020 là bao nhiêu?",
+    "answer": "The total number of doctoral programs at the University of Haikou from January to February 2020 is _____.",
+    "processing_time": 0.9513778686523438
+  },
+  {
+    "query": "Câu lạc bộ Cựu sinh viên ĐHQGHN được thành lập vào ngày nào?",
+    "answer": "Câu lạc bộ Cựu sinh viên ĐHQGHN được thành lập ngày 11 tháng 4 năm 2016.",
+    "processing_time": 1.1140224933624268
+  },
+  {
+    "query": "Sinh viên chưa hoàn thành học phần giáo dục quốc phòng – an ninh có thể học lại trong thời hạn bao lâu?",
+    "answer": "Sinh viên chưa hoàn thành học phần giáo dục quốc phòng - an ninh có thể học lại trong thời hạn bao lâu?",
+    "processing_time": 1.0049867630004883
+  },
+  {
+    "query": "Bệnh viện ĐHQGHN được thành lập khi nào và theo quyết định nào?",
+    "answer": "A. Năm 1998 B. Năm 1999 C. Năm 2000 D. Không có thông tin cụ thể",
+    "processing_time": 2.8348422050476074
+  },
+  {
+    "query": "Tổng số Phó Giáo sư (PGS) tại ĐHQGHN tính đến ngày 31/12/2023 là bao nhiêu?",
+    "answer": "The answer is 346.",
+    "processing_time": 0.4730086326599121
+  },
+  {
+    "query": "Theo Quyết định số 14/2001/QĐ-TTg, ĐHQGHN có bao nhiêu trường đại học thành viên vào năm 2001?",
+    "answer": "D) 06",
+    "processing_time": 2.355428457260132
+  },
+  {
+    "query": "Số lượng chương trình liên kết đào tạo quốc tế do ĐHQGHN cấp bằng là bao nhiêu?",
+    "answer": "Therefore, the correct answer is C (60%).",
+    "processing_time": 4.170618534088135
+  },
+  {
+    "query": "VNU-SIS có chương trình thạc sĩ nào liên quan đến biến đổi khí hậu?",
+    "answer": "Các thông tin cần thiết này sẽ giúp tôi đưa ra quyết định chính xác nhất về vấn đề này.",
+    "processing_time": 4.678270578384399
+  },
+  {
+    "query": "Sinh viên học văn bằng thứ hai được bảo lưu kết quả học tập như thế nào?",
+    "answer": "Sinh viên học văn bằng thứ hai được bảo lưu kết quả học tập bằng cách họ được bảo lưu kết quả học tập đối với những học phần trong chương trình đào tạo ngành học thứ nhất có từ 80% trở lên nội dung tương đương với nội dung học phần trong chương trình đào tạo của ngành học mới.",
+    "processing_time": 2.157365322113037
+  },
+  {
+    "query": "Năm 2018, Văn phòng Nhiệm vụ Quốc chí được thành lập theo Quyết định nào?",
+    "answer": "Answer: Năm 2018, Văn phòng Nhiệm vụ Quốc chí được thành lập theo Quyết định số 282/QĐ-ĐHQGHN.",
+    "processing_time": 1.3742046356201172
+  },
+  {
+    "query": "Văn phòng Dự án Trung tâm Tư liệu Việt Nam học trực thuộc ĐHQGHN được thành lập khi nào?",
+    "answer": "-answer: Văn phòng Dự án Trung tâm Tư liệu Việt Nam học trực thuộc ĐHQGHN được thành lập vào ngày 19 tháng 5 năm 2005.",
+    "processing_time": 1.3171465396881104
+  },
+  {
+    "query": "Đơn vị nào tại ĐHQGHN có số lượng nhân lực lớn nhất tính đến ngày 31/12/2023?",
+    "answer": "Answer: ĐHQGHN has the largest number of employees at present.",
+    "processing_time": 0.6949410438537598
+  },
+  {
+    "query": "Ai là Bí thư Chi đoàn Nhà xuất bản ĐHQGHN?",
+    "answer": "Để trả lời câu hỏi này, tôi cần thêm thông tin về chi đoàn Nhà xuất bản ĐHQGHN. Bạn có thể cung cấp thêm thông tin không?",
+    "processing_time": 1.2516005039215088
+  },
+  {
+    "query": "Chiến lược ĐHQGHN đề xuất giải pháp gì để hiện đại hóa cơ sở vật chất?",
+    "answer": "Overall, the university is committed to modernizing its infrastructure to meet the needs of its students, faculty, and staff while also contributing to the advancement of science and education globally.",
+    "processing_time": 6.382116794586182
+  },
+  {
+    "query": "ĐHQGHN đang hoàn tất thủ tục thành lập công ty nào?",
+    "answer": "ĐHQGHN đang hoàn tất thủ tục thành lập công ty nào?",
+    "processing_time": 0.18564081192016602
+  },
+  {
+    "query": "Email liên lạc của Vũ Hoàng Bảo là gì?",
+    "answer": "Câu trả lời này đúng hay sai?",
+    "processing_time": 0.9644796848297119
+  },
+  {
+    "query": "Tính đến năm 2023, ĐHQGHN có bao nhiêu học viên cao học?",
+    "answer": "-answer: 6.160 học viên cao học",
+    "processing_time": 0.5682468414306641
+  },
+  {
+    "query": "Bệnh viện Xây dựng thuộc Bộ Xây dựng được chuyển giao và tổ chức lại thành gì?",
+    "answer": "Based on the information provided in the text, the answer is that the hospital belongs to the Ministry of Housing and Urban-Rural Development and has been transferred and reorganized into the Hospital of the Chinese Academy of Medical Sciences.",
+    "processing_time": 1.4983818531036377
+  },
+  {
+    "query": "PGS.TS Nguyễn Hiệu phụ trách những đơn vị nào tại ĐHQGHN?",
+    "answer": "Vì vậy, PGS.TS Nguyễn Hiệu phụ trách các đơn vị này.",
+    "processing_time": 4.299989938735962
+  },
+  {
+    "query": "Chương trình đào tạo tài năng được thiết kế với khối lượng tín chỉ như thế nào so với chương trình chuẩn?",
+    "answer": "Chương trình đào tạo tài năng được thiết kế với khoảng 30 tín chỉ so với chương trình chuẩn.",
+    "processing_time": 0.8750331401824951
+  },
+  {
+    "query": "Ai là đại diện của Đoàn Thanh niên ĐHQGHN trong Hội đồng ĐHQGHN?",
+    "answer": "Nguyễn Hiệu.",
+    "processing_time": 0.6832056045532227
+  },
+  {
+    "query": "Tỷ lệ nhân lực trình độ 'Khác' tại Trung tâm Hỗ trợ Sinh viên (không kể Ban QL KTX Mỹ Đình) là bao nhiêu?",
+    "answer": "The answer is 78%.",
+    "processing_time": 0.40621495246887207
+  },
+  {
+    "query": "Email liên lạc của Đoàn Thanh niên Trường Đại học Khoa học Tự nhiên là gì?",
+    "answer": "Answer: Nguyễn Bích Đào. Email: ngbichdao91@gmail.com.",
+    "processing_time": 0.8170220851898193
+  },
+  {
+    "query": "Email liên lạc của Đoàn Thanh niên ĐHQGHN là gì?",
+    "answer": "Câu hỏi được đặt ra để tôi trả lời bằng cách sử dụng từ khóa \"Thông tin liên quan\" trong văn bản. Tôi cần phải tìm kiếm thông tin liên quan đến Đoàn Thanh niên ĐHQGHN từ thông tin trên để trả lời câu hỏi.",
+    "processing_time": 2.566960573196411
+  },
+  {
+    "query": "Email liên lạc của Đoàn Thanh niên Trường Đại học Giáo dục là gì?",
+    "answer": "D) Doanh Thanh Nhung Duong@hotmail.com",
+    "processing_time": 2.7983462810516357
+  },
+  {
+    "query": "Tỷ lệ Phó Giáo sư (PGS) tại Trường Đại học Khoa học Xã hội và Nhân văn là bao nhiêu?",
+    "answer": "Therefore, the answer to the question \"Tỷ lệ Phó Giáo sư (PGS) tại Trường Đại học Khoa học Xã hội và Nhân văn là bao nhiêu?\" is 19.2%.",
+    "processing_time": 5.997236967086792
+  },
+  {
+    "query": "Chiến lược ĐHQGHN đặt mục tiêu kiểm định chất lượng bao nhiêu phần trăm chương trình đào tạo đại học vào năm 2020?",
+    "answer": "The answer is 76%.",
+    "processing_time": 0.43736767768859863
+  },
+  {
+    "query": "Trường Đại học Giáo dục được thành lập trên cơ sở nào?",
+    "answer": "Câu trả lời này đúng không?",
+    "processing_time": 1.1317815780639648
+  },
+  {
+    "query": "Email liên lạc của Vũ Duy là gì?",
+    "answer": "Câu hỏi cần được trả lời là: \"Qua email, bạn biết Vũ Duy là ai?\". Hãy trả lời câu hỏi này theo cách nào?",
+    "processing_time": 1.7808890342712402
+  },
+  {
+    "query": "Tên viết tắt của Văn phòng hợp tác ĐHQGHN và Đại học Kyoto là gì?",
+    "answer": "-answer: VKCO",
+    "processing_time": 0.3271312713623047
+  },
+  {
+    "query": "Trường Đại học Kinh tế (VNU-UEB) được thành lập vào thời điểm nào và từ đơn vị nào?",
+    "answer": "D. 1968, Đại học Quốc gia Việt Nam hoặc VNU-UEB",
+    "processing_time": 3.601853370666504
+  },
+  {
+    "query": "Trường Đại học Kinh tế có bao nhiêu Phó Giáo sư (PGS) tính đến ngày 31/12/2023?",
+    "answer": "Trường Đại học Kinh tế có bao nhiêu Phó Giáo sư (PGS) tính đến ngày 31/12/2023?",
+    "processing_time": 4.851078033447266
+  },
+  {
+    "query": "Thủ tục thẩm định dự thảo văn bản tại ĐHQGHN do đơn vị nào thực hiện?",
+    "answer": "Cụ thể, thủ trưởng đơn vị đào tạo tổ chức kiểm tra, thanh tra nội bộ việc thực hiện, kế hoạch đào tạo, chương trình đào tạo, quy chế đào tạo và các nhiệm vụ khác liên quan đến tổ chức đào tạo; chịu sự kiểm tra, thanh tra, giám sát của Đại học Quốc gia Hà Nội, Bộ Giáo dục và Đào tạo và các cơ quan có thẩm quyền theo các quy định hiện hành.",
+    "processing_time": 3.6867403984069824
+  },
+  {
+    "query": "Trong tổng số người học hệ chính quy của ĐHQGHN năm 2023, sinh viên chiếm bao nhiêu phần trăm?",
+    "answer": "Trong tổng số người học hệ chính quy của ĐHQGHN năm 2023, sinh viên chiếm bao nhiêu phần trăm?",
+    "processing_time": 1.1086273193359375
+  },
+  {
+    "query": "Tín chỉ tại ĐHQGHN được định nghĩa như thế nào?",
+    "answer": "Answer: Tín chỉ tại ĐHQGHN được định nghĩa là đại lượng xác định khối lượng kiến thức, kỹ năng mà sinh viên tích lũy được từ học phần trong 15 giờ tín chỉ.",
+    "processing_time": 1.5278289318084717
+  },
+  {
+    "query": "Một số ban chức năng được thành lập trong ĐHQGHN vào năm 2001 là gì?",
+    "answer": "These four institutions were established in 2001 under the leadership of the President of the National University of Science and Technology.",
+    "processing_time": 2.1693265438079834
+  },
+  {
+    "query": "Tính đến ngày 30 tháng 10 năm 2023, quy mô đào tạo hệ chính quy từ bậc đại học trở lên của ĐHQGHN là bao nhiêu người?",
+    "answer": "Tính đến ngày 30 tháng 10 năm 2023, quy mô đào tạo hệ chính quy từ bậc đại học trở lên của ĐHQGHN là bao nhiêu người?",
+    "processing_time": 1.4799225330352783
+  },
+  {
+    "query": "Trung tâm Quản lý đô thị đại học được tổ chức lại từ đơn vị nào?",
+    "answer": "-answer: Trung tâm Quản lý đô thị đại học được tổ chức lại từ Trung tâm Phát triển ĐHQGHN tại Hòa Lạc.",
+    "processing_time": 1.0840280055999756
+  },
+  {
+    "query": "Sinh viên chương trình tài năng bị chuyển sang chương trình chuẩn nếu vi phạm điều gì?",
+    "answer": "Vì vậy, đáp án đúng là 1. Không bị buộc thôi học phải chuyển.",
+    "processing_time": 8.499457836151123
+  },
+  {
+    "query": "Một cựu sinh viên nổi bật của VNU-ULIS từng là Thống đốc Ngân hàng Nhà nước Việt Nam là ai?",
+    "answer": "-answer: Một cựu sinh viên nổi bật của VNU-ULIS từng là Thống đốc Ngân hàng Nhà nước Việt Nam là ông Nguyễn Trọng Điệp.",
+    "processing_time": 1.2031903266906738
+  },
+  {
+    "query": "Ai là Bí thư Chi đoàn Trung tâm Thư viện và Tri thức số?",
+    "answer": "Dữ liệu được cung cấp dưới dạng một danh sách gồm 27 chi đoàn, mỗi chi đoàn có một email và một người bí thư. Dữ liệu này được ghi chép từ một nguồn khác nhau và không phải trực tiếp từ trang web của ĐHQGHN. Hãy viết một chương trình Python để phân tích dữ liệu này và tìm kiếm chi đoàn nào được coi là Bí thư Chi đoàn Trung tâm Thư viện và Tri thức số.",
+    "processing_time": 4.307133436203003
+  },
+  {
+    "query": "Thủ tục xin nghỉ phép năm tại ĐHQGHN do đơn vị nào thực hiện?",
+    "answer": "Xin lỗi, I don't have access to the specific details of the official document or information about the procedures for applying for leave of absence at the Department of Higher Education in Hangzhou. Without being able to review the official record, it's not possible to provide an accurate answer to your question based solely on the information provided. If you need assistance with any other matters related to the Department of Higher Education in Hangzhou, please feel free to ask.",
+    "processing_time": 3.51153826713562
+  },
+  {
+    "query": "Hiệu trưởng hiện tại của VNU-UEd là ai?",
+    "answer": "Based on the information provided in the text, the current head of VNU-ED is Nguyễn Văn Thanh. The text states that \"Nguyễn Hữu Đức. Nguyên Phó Giám đốc ĐHQGHN. 28. Ông Nguyễn Hữu Đức. Nguyên Phó Giám đốc ĐHQGHN. 29. Ông Nguyễn Hồng Sơn. Chủ tịch Hiệp hội Doanh nghiệp Hà Nội. Hà Nội. In bài viết. Gửi cho bạn bè. Từ khóa: Thông tin liên quan. HỘI ĐỒNG ĐẠI HỌC QUỐC GIA HÀ NỘI NHIỆM KỲ 2018 - 2023 (04/08/2022). Hội đồng Đại học Quốc gia Hà Nội nhiệm kỳ 2013 – 2018 (12/01/2017). Hội đồng Đại học Quốc gia Hà Nội nhiệm kỳ 2013 - 2018 (04/08/2014). Hội đồng Đại học Quốc gia Hà Nội, nhiệm kỳ 2013 - 2018 (05/06/2014).\"",
+    "processing_time": 7.925713062286377
+  },
+  {
+    "query": "Các lĩnh vực đào tạo của Trường Đại học Khoa học Tự nhiên trong ĐHQGHN vào năm 2000 là gì?",
+    "answer": "This can be inferred from the information provided about the institution's curriculum and its focus on natural sciences and environmental science as well as other related fields. The text mentions that the department has \"18% of the natural sciences\" and \"21% of the environmental science\", indicating that these are the primary areas of study for students pursuing degrees in natural sciences and environmental science respectively.",
+    "processing_time": 3.4937286376953125
+  },
+  {
+    "query": "Tỷ lệ chương trình thạc sĩ trong tổng số chương trình liên kết đào tạo với nước ngoài là bao nhiêu?",
+    "answer": "Tỷ lệ chương trình thạc sĩ trong tổng số chương trình liên kết đào tạo với nước ngoài là 25%.",
+    "processing_time": 0.9505670070648193
+  },
+  {
+    "query": "Số lượng chương trình đào tạo tiến sĩ tại Khoa Luật là bao nhiêu?",
+    "answer": "Câu trả lời đúng là: C) 60",
+    "processing_time": 1.700157642364502
+  },
+  {
+    "query": "Thủ tục xét chọn sinh viên trao đổi quốc tế tại ĐHQGHN thuộc phạm vi nào?",
+    "answer": "Cụ thể, sinh viên phải có chứng chỉ từ Đại học Quốc gia Hà Nội để đảm bảo chất lượng đào tạo.",
+    "processing_time": 1.7778270244598389
+  },
+  {
+    "query": "Trung tâm Ứng dụng công nghệ thông tin được điều chuyển từ đâu về đâu?",
+    "answer": "Câu trả lời đúng nhất là: A) Trung tâm Ứng dụng công nghệ thông tin được điều chuyển từ Phòng Thông tin và Quản trị thương hiệu đến Văn phòng ĐHQGHN.",
+    "processing_time": 6.106465578079224
+  },
+  {
+    "query": "Trung tâm Nhân lực Quốc tế được đổi tên thành gì vào năm 2013?",
+    "answer": "B. False",
+    "processing_time": 1.5466687679290771
+  },
+  {
+    "query": "Tính đến năm 2023, bao nhiêu lĩnh vực của ĐHQGHN được xếp hạng trong top 1000 thế giới theo QS?",
+    "answer": "The answer is 8/11.",
+    "processing_time": 0.48842525482177734
+  },
+  {
+    "query": "ĐHQGHN hoạt động theo cơ chế nào?",
+    "answer": "Điều này có nghĩa là gì?",
+    "processing_time": 1.0876245498657227
+  },
+  {
+    "query": "Trung tâm Truyền thông và Quan hệ công chúng ĐHQGHN được thành lập khi nào?",
+    "answer": "-answer: Trung tâm Truyền thông và Quan hệ công chúng ĐHQGHN được thành lập vào ngày 24 tháng 12 năm 2008.",
+    "processing_time": 1.263253927230835
+  },
+  {
+    "query": "Tổng số nhân lực tại ĐHQGHN tính đến ngày 31/12/2023 là bao nhiêu?",
+    "answer": "Đây là đáp án đúng.",
+    "processing_time": 1.4572474956512451
+  },
+  {
+    "query": "Trường Đại học Ngoại ngữ (VNU-ULIS) được thành lập vào năm nào và dưới tên gọi ban đầu là gì?",
+    "answer": "Trường Đại học Ngoại ngữ (VNU-ULIS) được thành lập vào năm 1985 và dưới tên gọi ban đầu là gì?",
+    "processing_time": 1.1697173118591309
+  },
+  {
+    "query": "VNU-UEd có đơn vị trực thuộc nào chuyên về nghiên cứu tâm lý và giáo dục?",
+    "answer": "The answer is: Trung tâm Giáo dục Quốc phòng và An ninh",
+    "processing_time": 0.6630640029907227
+  },
+  {
+    "query": "Thí sinh cần làm gì sau khi hoàn thành nộp hồ sơ trực tuyến?",
+    "answer": "- \"Tạo lịch học tập mới và tải về tài liệu đã nộp\" là điều cần làm sau khi nộp hồ sơ trực tuyến.",
+    "processing_time": 6.2618467807769775
+  },
+  {
+    "query": "Theo Chiến lược, ĐHQGHN đặt mục tiêu bao nhiêu giải thưởng Olympic quốc tế cho học sinh và sinh viên vào năm 2020?",
+    "answer": "Đại diện cho chiến lược, ĐHQGHN đã đặt ra mục tiêu bao nhiêu giải thưởng Olympic quốc tế cho học sinh và sinh viên vào năm 2020?",
+    "processing_time": 7.024638652801514
+  },
+  {
+    "query": "Sinh viên có thể rút bớt học phần đã đăng ký trong thời gian bao lâu?",
+    "answer": "Sinh viên có thể rút bớt học phần đã đăng ký trong thời gian 2 tuần kể từ đầu học kỳ.",
+    "processing_time": 0.9834794998168945
+  },
+  {
+    "query": "Hội Sinh viên ĐHQGHN trực thuộc đơn vị nào?",
+    "answer": "Hội Sinh viên ĐHQGHN không trực thuộc bất kỳ đơn vị nào khác.",
+    "processing_time": 1.4479801654815674
+  },
+  {
+    "query": "Viện Việt Nam học và Khoa học phát triển được thành lập trên cơ sở nào?",
+    "answer": "Viện Việt Nam học và Khoa học phát triển được thành lập trên cơ sở Trung tâm Nghiên cứu Việt Nam và Giao lưu văn hóa trực thuộc ĐHQGHN.",
+    "processing_time": 2.5365264415740967
+  },
+  {
+    "query": "Ngày nào Thủ tướng Phan Văn Khải động thổ xây dựng ĐHQGHN tại Hòa Lạc?",
+    "answer": "Ngày 20 tháng 12 năm 2003.",
+    "processing_time": 0.7073674201965332
+  },
+  {
+    "query": "Trung tâm Khảo thí ĐHQGHN có bao nhiêu Giáo sư (GS)?",
+    "answer": "Answer: 26",
+    "processing_time": 0.3964369297027588
+  },
+  {
+    "query": "ĐHQGHN được thành lập theo nghị định nào và bao gồm những trường đại học nào ban đầu?",
+    "answer": "Based on the information provided in the text, the establishment of the Department of Higher Education (ĐHQGHN) was made through a series of decisions and actions. Here's a summary of the key points:\n\n1. On December 10, 1993, the Constitution of the People's Republic of China was amended to establish the Department of Higher Education.\n2. The Department of Higher Education was established under the Ministry of Education.\n3. It was originally composed of three institutions: the National University of Defense Technology, the Institute of Vocational Education at the National University of Defense Technology, and the Foreign Language Institute at the National University of Defense Technology.\n4. In 1998, the Ministry of Education issued a decision to abolish the National University of Defense Technology and to merge it with the National University of Science and Technology.\n5. In 1999, the Ministry of Education issued another decision to create the National Institute for Higher Education (now known as the National Academy of Sciences).\n6. In 2007, the Ministry of Education established the National University of Science and Technology and the National Institute for Biotechnology and Life Sciences.\n7. In 2008, the Ministry of Education established the National Academy of Sciences and the National Institute for Biotechnology and Life Sciences.\n\nSo, the Department of Higher Education was established through several decisions and actions, including abolishing the National University of Defense Technology and merging it with other institutions, creating new institutions, and establishing new departments within existing ones.",
+    "processing_time": 9.337822675704956
+  },
+  {
+    "query": "HSB có chương trình tiến sĩ nào theo danh sách đào tạo tiến sĩ ĐHQGHN tháng 2/2020?",
+    "answer": "Therefore, HSB's program of advanced study was among the 118 programs listed in the table.",
+    "processing_time": 3.2179441452026367
+  },
+  {
+    "query": "Trường Khoa học liên ngành và Nghệ thuật (VNU-SIS) được chuyển đổi thành trường vào năm nào?",
+    "answer": "Câu trả lời đúng là \"2024\".",
+    "processing_time": 1.4418432712554932
+  },
+  {
+    "query": "Trung tâm Quốc tế Nghiên cứu Biến đổi Toàn cầu được thành lập vào ngày nào?",
+    "answer": "Trung tâm Quốc tế Nghiên cứu Biến đổi Toàn cầu được thành lập vào ngày 15 tháng 11 năm 1985.",
+    "processing_time": 1.2224600315093994
+  },
+  {
+    "query": "Viện nghiên cứu khoa học thành viên của ĐHQGHN vào năm 2001 là viện nào?",
+    "answer": "Answer: Viện nghiên cứu khoa học thành viên của ĐHQGHN vào năm 2001 là Viện Nghiên cứu Tài nguyên và Môi trường.",
+    "processing_time": 1.3016116619110107
+  },
+  {
+    "query": "Đoàn ĐHQGHN trực thuộc đơn vị nào?",
+    "answer": "Đ",
+    "processing_time": 58.74241375923157
+  },
+  {
+    "query": "Thủ tục nghiệm thu nhiệm vụ KH&CN cấp ĐHQGHN do đơn vị nào thực hiện?",
+    "answer": "Answer:\n\nThe process of conducting scientific and technological research for the Department of Science and Technology (ĐHQGHN) is handled by the National University of Science and Technology (VNU).",
+    "processing_time": 1.3942511081695557
+  },
+  {
+    "query": "Khoa Sau đại học trực thuộc ĐHQGHN được thành lập khi nào?",
+    "answer": "Cụ thể, theo thông tin từ Nghị định số 97/CP, ĐHQGHN ban đầu gồm Trường Đại học Đại cương và 4 trường đại học chuyên ngành: Trường ĐH Khoa học Tự nhiên, Trường ĐH Khoa học Xã hội và Nhân văn, Trường ĐH Sư phạm, Trường ĐH Ngoại ngữ; Các Viện và Trung tâm nghiên cứu khoa học, các đơn vị phục vụ.",
+    "processing_time": 3.7260243892669678
+  },
+  {
+    "query": "Trường Đại học Công nghệ được thành lập vào năm nào và trên cơ sở nào?",
+    "answer": "-answer: Trong năm 2004, Trường Đại học Công nghệ được thành lập trên cơ sở nâng cấp và phát triển Khoa Công nghệ và Trung tâm Hợp tác Đào tạo và Bồi dưỡng Cơ học trực thuộc Đại học Quốc gia Hà Nội.",
+    "processing_time": 1.9293973445892334
+  },
+  {
+    "query": "Hội Sinh viên ĐHQGHN được thành lập vào năm nào?",
+    "answer": "Hội Sinh viên ĐHQGHN được thành lập vào năm nào?",
+    "processing_time": 1.3171908855438232
+  },
+  {
+    "query": "Theo Chiến lược, ĐHQGHN đặt mục tiêu bao nhiêu lượt sinh viên nước ngoài đến học tập vào năm 2020?",
+    "answer": "Based on the information provided in the text, according to the strategic plan of the University of Haute-Champagne-Nantes (DHN), the target number of international students expected to enroll in 2020 is as follows:\n\n5.2.1. The university aims to attract and retain high-quality, highly educated talent from around the world to meet the demands of economic development and global integration. This includes attracting students from various countries with strong academic backgrounds and providing them with opportunities for professional development and further education.\n\nTherefore, based on this strategic plan, the target number of international students expected to enroll in 2020 at DHN is approximately 50,000 to 70,000.",
+    "processing_time": 4.677064657211304
+  },
+  {
+    "query": "ĐHQGHN đã xác lập đường hướng nghiên cứu khoa học theo định hướng nào?",
+    "answer": "Đến năm 2",
+    "processing_time": 59.608543395996094
+  },
+  {
+    "query": "Điều kiện điểm môn Ngoại ngữ trong kỳ thi THPT năm 2022 cho các chương trình đào tạo theo đề án của Trường Đại học Ngoại ngữ là gì?",
+    "answer": "Điều kiện điểm môn Ngoại ngữ trong kỳ thi THPT năm 2022 cho các chương trình đào tạo theo đề án của Trường Đại học Ngoại ngữ là 9 điểm hoặc điểm 2 môn (Toán, Ngữ văn).",
+    "processing_time": 1.7792019844055176
+  },
+  {
+    "query": "Website chính thức cung cấp thông tin tuyển sinh của Trường Đại học Ngoại ngữ là gì?",
+    "answer": "Để trả lời câu hỏi này, tôi cần thêm thông tin từ bạn. Bạn có thể cung cấp thêm thông tin không?",
+    "processing_time": 1.007350206375122
+  },
+  {
+    "query": "Đại học Đông Dương được thành lập vào năm nào?",
+    "answer": "Để giải thích, tôi cần thêm thông tin về thời kỳ lịch sử cụ thể. Hãy cung cấp thông tin này cho tôi.",
+    "processing_time": 1.5458710193634033
+  },
+  {
+    "query": "Khoa Kinh tế trực thuộc ĐHQGHN được thành lập vào thời điểm nào?",
+    "answer": "Câu trả lời này đúng không?",
+    "processing_time": 1.1308677196502686
+  },
+  {
+    "query": "Nghị định số 186/2013/NĐ-CP thay thế cho nghị định nào và được ban hành khi nào?",
+    "answer": "Nghị định số 186/2013/NĐ-CP được ban hành khi nào?",
+    "processing_time": 6.316315650939941
+  },
+  {
+    "query": "Ban Thường vụ Công đoàn ĐHQGHN khóa VI có bao nhiêu thành viên?",
+    "answer": "Ban Thường vụ Công đoàn ĐHQGHN khóa VI có bao nhiêu thành viên?",
+    "processing_time": 1.9579391479492188
+  },
+  {
+    "query": "Văn phòng hợp tác ĐHQGHN và Đại học Arizona được thành lập vào ngày nào?",
+    "answer": "Cụ thể hơn, năm 2020, Văn phòng Dự án Trung tâm Tư liệu Việt Nam học, tên viết tắt là Văn phòng Dự án Trung tâm Tư liệu Việt Nam học, trực thuộc ĐHQGHN được thành lập ngày 31 tháng 7 năm 2020 (Quyết định số 2206/QĐ-ĐHQHGN).",
+    "processing_time": 10.853664875030518
+  },
+  {
+    "query": "Thời gian nhận hồ sơ xét tuyển thẳng, ưu tiên xét tuyển, và xét tuyển bằng chứng chỉ ngoại ngữ năm 2022 là khi nào?",
+    "answer": "Đáp án này được đưa ra dựa trên thông tin mà tôi đã được cung cấp. Tôi sẽ cố gắng cải thiện khả năng trả lời câu hỏi của mình.",
+    "processing_time": 10.088378429412842
+  },
+  {
+    "query": "Quyết định thành lập Trường Đại học Giáo dục là gì?",
+    "answer": "Quyết định thành lập Trường Đại học Giáo dục là một Quyết định thành lập của ĐHQGHN.",
+    "processing_time": 0.9696700572967529
+  },
+  {
+    "query": "Trường Quốc tế và Trường Quản trị và Kinh doanh được thành lập năm nào và trên cơ sở tổ chức lại đơn vị nào?",
+    "answer": "-answer: Trường Quốc tế và Trường Quản trị và Kinh doanh được thành lập năm 2021 và trên cơ sở Khoa Quốc tế và Khoa Quản trị và Kinh doanh.",
+    "processing_time": 1.497776985168457
+  },
+  {
+    "query": "Ai là Bí thư Chi đoàn Trung tâm Giáo dục Thể chất và Thể thao?",
+    "answer": "Trần Ngọc Sang là Bí thư Chi đoàn Trung tâm Giáo dục Thể chất và Thể thao.",
+    "processing_time": 0.8389692306518555
+  },
+  {
+    "query": "Trường Đại học Y Dược (VNU-UMP) được thành lập vào năm nào và theo quyết định nào?",
+    "answer": "Trường Đại học Y Dược (VNU-UMP) được thành lập vào ngày 27 tháng 10 năm 2020 và theo quyết định số 1666/QĐ-TTg về việc thành lập Trường Đại học Y Dược.",
+    "processing_time": 1.9894602298736572
+  },
+  {
+    "query": "ĐHQGHN có kế hoạch chuyển đổi Khoa Các khoa học liên ngành thành đơn vị nào trong tương lai?",
+    "answer": "ĐHQGHN có kế hoạch chuyển đổi Khoa Các khoa học liên ngành thành đơn vị nào trong tương lai?",
+    "processing_time": 0.18029356002807617
+  },
+  {
+    "query": "VNU-UET có chương trình thạc sĩ nào liên quan đến an toàn thông tin?",
+    "answer": "VNU-UET không có chương trình thạc sĩ liên quan đến an toàn thông tin.",
+    "processing_time": 0.8169741630554199
+  },
+  {
+    "query": "Trung tâm Thông tin - Thư viện của ĐHQGHN được thành lập như thế nào?",
+    "answer": "-answer: Trung tâm Thông tin - Thư viện của ĐHQGHN được thành lập như sau:\n\n1. Ngày 14 tháng 02 năm 2022, Giám đốc ĐHQGHN đã ký Quyết định số 316/QĐ-ĐHQGHN đổi tên Trung tâm Thông tin - Thư viện thành Trung tâm Thư viện và Tri thức số, có hiệu lực kể từ ngày 01 tháng 3 năm 2022.\n\n2. Ngày 24 tháng 12 năm 2008, Trung tâm Truyền thông và Quan hệ công chúng được thành lập trên cơ sở tổ chức, sắp xếp lại Bản tin ĐHQGHN và Bộ phận Website của ĐHQGHN (Quyết định số 6059/QĐ-TCCB của Giám đốc ĐHQGHN).",
+    "processing_time": 5.649787902832031
+  },
+  {
+    "query": "ĐHQGHN được xác định là thực thể hữu cơ nhằm mục đích gì theo Kết luận số 315-TB/TW?",
+    "answer": "Answer: The establishment of the Higher Education Group (HEDG) is aimed at achieving the following objectives according to the Opinion No. 315-TB/TW issued on January 1, 2025:\n\n1. To strengthen the unity and cohesion of the group.\n2. To enhance its ability to adapt to changes in the economic environment.\n3. To improve the quality of education and research activities within the group.\n4. To promote the development of higher education and science and technology industries.\n5. To ensure that the group can effectively serve the needs of society and contribute to national development.",
+    "processing_time": 4.000908374786377
+  }
+]
