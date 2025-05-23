@@ -5,8 +5,7 @@ from typing import List, Dict, Any, Optional
 import time
 from dotenv import load_dotenv
 from retrieve import Retriever
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from groq import Groq
 
 load_dotenv()
 
@@ -19,13 +18,16 @@ logger = logging.getLogger(__name__)
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 MODEL_NAME = os.getenv("MODEL_NAME")
+API_KEY = os.getenv("API_KEY")
+
+client = Groq(api_key=API_KEY)
 
 
 class QASystem:
     def __init__(
         self,
         retriever: Retriever,
-        model_name: str = MODEL_NAME,
+        model_name: str = "llama3-8b-8192",
         api_url: Optional[str] = None,
         api_key: Optional[str] = None,
         temperature: float = 0.1,
@@ -55,23 +57,6 @@ class QASystem:
         self.logging_enabled = logging_enabled
         self.results_dir = results_dir
 
-        # Tạo tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            model_name, trust_remote_code=True, token=HF_TOKEN
-        )
-        print(f"Đã tải tokenizer cho mô hình")
-
-        # Tạo mô hình
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            trust_remote_code=True,
-            device_map="cuda",
-            token=HF_TOKEN,
-        )
-        print(f"Đã tải mô hình")
-
-        print(f"{model_name}")
-
         # Tạo thư mục kết quả nếu chưa tồn tại
         if not os.path.exists(results_dir):
             os.makedirs(results_dir)
@@ -94,7 +79,7 @@ class QASystem:
 
 {context}
 
-Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn gọn và chính xác nhất có thể:
+Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn gọn và chính xác nhất có thể, không giải thích:
 {query}
 """
         return prompt
@@ -109,72 +94,33 @@ Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn 
         Returns:
             Câu trả lời từ mô hình
         """
-        # inputs = self.tokenizer(prompt, return_tensors="pt")
-
-        # device = next(self.model.parameters()).device
-        # inputs = {k: v.to(device) for k, v in inputs.items()}
-
-        # Format prompt theo dạng chat
-        messages = [
-            {"role": "user", "content": prompt},
-        ]
-
-        # # Áp dụng template đặc biệt của mô hình chat
-        # inputs = self.tokenizer.apply_chat_template(
-        #     messages,
-        #     return_tensors="pt",
-        #     add_generation_prompt=True  # tùy vào model
-        # )
-
-        # Apply chat template and encode as input_ids
-        prompt_ids = self.tokenizer.apply_chat_template(
-            messages, add_special_tokens=True, return_tensors="pt"
-        )
-
-        # Chuyển input_ids sang device
-        device = next(self.model.parameters()).device
-        prompt_ids = prompt_ids.to(device)
-
-        # Tạo attention mask từ input_ids
-        attention_mask = torch.ones_like(prompt_ids)
-
-        # Generate output
-        outputs = self.model.generate(
-            input_ids=prompt_ids,
-            attention_mask=attention_mask,
-            max_new_tokens=self.max_tokens,
-            temperature=self.temperature,
-        )
-
-        answer = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-        answer = answer.split("assistant")[-1].strip()
-        answer = answer.split("user")[-1].strip()
-
-        # ==== Tách phần trả lời thật sự ====
-        if prompt in answer:
-            answer = answer.split(prompt)[-1].strip()
-
-        return answer.strip()
+        try:
+            response = client.chat.completions.create(
+                model=self.model_name,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "Bạn là trợ lý AI chuyên trả lời tiếng Việt.",
+                    },
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=0.2,
+                max_tokens=512,
+                top_p=1,
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            logger.error(f"Lỗi gọi API: {e}")
+            return "Lỗi khi gọi mô hình."
 
     def answer_question(
         self,
         query: str,
         top_k: int = 5,
-        max_context_length: int = 1000,
+        max_context_length: int = 2000,
         log_result: bool = True,
     ) -> Dict[str, Any]:
-        """
-        Trả lời câu hỏi dựa trên thông tin truy xuất được.
 
-        Args:
-            query: Câu hỏi
-            top_k: Số lượng đoạn văn bản liên quan cần truy xuất
-            max_context_length: Độ dài tối đa của ngữ cảnh
-            log_result: Có lưu kết quả hay không
-
-        Returns:
-            Dict: Kết quả chứa câu hỏi, câu trả lời và thông tin liên quan
-        """
         # Bắt đầu tính thời gian xử lý
         start_time = time.time()
 
@@ -184,47 +130,19 @@ Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn 
             query, top_k=top_k, max_context_length=max_context_length
         )
         context = retrieval_result["context"]
-        sources = retrieval_result["sources"]
-
-        # Gộp các đoạn context thành 1 chuỗi
-        context_text = context
-
-        # Cắt context nếu quá dài
-        context_text = self.truncate_context(context_text, max_tokens=2000)
 
         # Tạo prompt
-        prompt = self._construct_prompt(query, context_text)
+        prompt = self._construct_prompt(query, context)
 
-        # Kiểm tra nội dung
-        print(prompt)
+        logger.info("Gửi truy vấn tới API...")
 
-        # Cảnh báo nếu prompt quá dài
-        total_tokens = len(self.tokenizer.encode(prompt))
-        if total_tokens > 2048:
-            logger.warning(
-                f"Prompt dài {total_tokens} tokens — có thể bị cắt bởi model!"
-            )
-
-        logger.info("Đang gọi mô hình ngôn ngữ để trả lời")
         answer = self._call_model(prompt)
 
-        # Tính thời gian xử lý
-        processing_time = time.time() - start_time
-
-        # Tạo kết quả
-        result = {
+        return {
             "query": query,
             "answer": answer,
-            # "sources": sources,
-            "processing_time": processing_time,
-            # "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "processing_time": time.time() - start_time,
         }
-
-        # Ghi log kết quả nếu được yêu cầu
-        if log_result and self.logging_enabled:
-            self._log_result(result)
-
-        return result
 
     def _log_result(self, result: Dict[str, Any]) -> None:
         """
@@ -268,6 +186,7 @@ Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn 
             # answer = result["answer"].strip()
 
             results.append(result)
+            time.sleep(1)  # Thêm thời gian nghỉ giữa các câu hỏi để tránh quá tải API
 
             # In tiến độ
             print(f"Đã xử lý {i}/{total_questions} câu hỏi")
@@ -305,7 +224,7 @@ if __name__ == "__main__":
 
     qa_system = QASystem(
         retriever=retriever,
-        model_name=MODEL_NAME,
+        # model_name=MODEL_NAME,
     )
 
     prompt = "Ai là hiệu trưởng của trường Đại Học Công Nghệ"
