@@ -1,0 +1,16 @@
+api:
+  groq:
+    api_key: ${API_KEY}
+    model_name: llama3-8b-8192
+
+retriever:
+  index_path: ../embeddings/index.faiss
+  metadata_path: ../embeddings/metadata.json
+  embedding_model: bkai-foundation-models/vietnamese-bi-encoder
+  top_k: 5
+
+generation:
+  temperature: 0.2
+  max_tokens: 512
+
+output_dir: system_outputs
