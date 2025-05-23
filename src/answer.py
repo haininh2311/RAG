@@ -3,11 +3,9 @@ import json
 import logging
 from typing import List, Dict, Any, Optional
 import time
-from dotenv import load_dotenv
 from retrieve import Retriever
 from groq import Groq
-
-load_dotenv()
+from config import load_config
 
 # Cấu hình logging
 logging.basicConfig(
@@ -16,19 +14,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-HF_TOKEN = os.getenv("HF_TOKEN")
-MODEL_NAME = os.getenv("MODEL_NAME")
-API_KEY = os.getenv("API_KEY")
-
-client = Groq(api_key=API_KEY)
-
-
 class QASystem:
     def __init__(
         self,
         retriever: Retriever,
-        model_name: str = "llama3-8b-8192",
-        api_url: Optional[str] = None,
+        model_name: str,
         api_key: Optional[str] = None,
         temperature: float = 0.1,
         max_tokens: int = 5000,
@@ -50,18 +40,39 @@ class QASystem:
         """
         self.retriever = retriever
         self.model_name = model_name
-        self.api_url = api_url
         self.api_key = api_key
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.logging_enabled = logging_enabled
         self.results_dir = results_dir
 
+        self.client = Groq(api_key=self.api_key)
+
         # Tạo thư mục kết quả nếu chưa tồn tại
         if not os.path.exists(results_dir):
             os.makedirs(results_dir)
 
-    def _construct_prompt(self, query: str, context: str) -> str:
+    @classmethod
+    def from_config(cls, config: dict) -> "QASystem":
+        retriever = Retriever(
+            index_path=config["retriever"]["index_path"],
+            metadata_path=config["retriever"]["metadata_path"],
+            embedding_model=config["retriever"]["embedding_model"],
+            top_k=config["retriever"]["top_k"],
+        )
+
+        return cls(
+            retriever=retriever,
+            model_name=config["api"]["groq"]["model_name"],
+            api_key=config["api"]["groq"]["api_key"],
+            temperature=config["generation"]["temperature"],
+            max_tokens=config["generation"]["max_tokens"],
+            results_dir=config["output_dir"],
+        )
+
+    def _construct_prompt(
+        self, query: str, context: str, low_confident: bool = False
+    ) -> str:
         """
         Xây dựng prompt cho mô hình
 
@@ -73,9 +84,13 @@ class QASystem:
             Prompt cho mô hình
         """
 
-        # context_text = "\n".join([item["text"] for item in context])
+        if low_confident:
+            prompt = f"""Hãy trả lời dựa vào kiến thức chung một cách ngắn gọn và chính xác nhất có thể, không giải thích:
+{query}
+"""
 
-        prompt = f"""Dưới đây là thông tin liên quan:
+        else:
+            prompt = f"""Dưới đây là thông tin liên quan:
 
 {context}
 
@@ -95,7 +110,7 @@ Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn 
             Câu trả lời từ mô hình
         """
         try:
-            response = client.chat.completions.create(
+            response = self.client.chat.completions.create(
                 model=self.model_name,
                 messages=[
                     {
@@ -117,7 +132,6 @@ Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn 
         self,
         query: str,
         top_k: int = 5,
-        max_context_length: int = 2000,
         log_result: bool = True,
     ) -> Dict[str, Any]:
 
@@ -126,13 +140,17 @@ Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn 
 
         # Lấy ngữ cảnh liên quan từ retriever
         logger.info(f"Đang truy xuất thông tin cho câu hỏi: {query}")
-        retrieval_result = self.retriever.retrieve_with_context(
-            query, top_k=top_k, max_context_length=max_context_length
-        )
+        retrieval_result = self.retriever.retrieve_with_context(query, top_k=top_k)
         context = retrieval_result["context"]
+        sources = retrieval_result["sources"]
+
+        # Lọc ngữ cảnh có liên quan không
+        low_confidence = all(
+            source.get("distance", 100.0) > 40.00 for source in sources
+        )
 
         # Tạo prompt
-        prompt = self._construct_prompt(query, context)
+        prompt = self._construct_prompt(query, context, low_confident=low_confidence)
 
         logger.info("Gửi truy vấn tới API...")
 
@@ -215,19 +233,10 @@ Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn 
 
 
 if __name__ == "__main__":
-    retriever = Retriever(
-        index_path="../embeddings/index.faiss",
-        metadata_path="../embeddings/metadata.json",
-        embedding_model="bkai-foundation-models/vietnamese-bi-encoder",
-        top_k=5,
-    )
+    config = load_config()
+    qa_system = QASystem.from_config(config)
 
-    qa_system = QASystem(
-        retriever=retriever,
-        # model_name=MODEL_NAME,
-    )
-
-    prompt = "Ai là hiệu trưởng của trường Đại Học Công Nghệ"
+    prompt = "AI trong ngôn ngữ tự nhiên là gì?"
     output = qa_system.answer_question(prompt)
     print(f"Câu hỏi: {prompt}")
     print(output)
