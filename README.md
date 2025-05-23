@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a Retrieval-Augmented Generation (RAG) system as part of the course assignment. The system is designed to answer questions using documents compiled from publicly available sources.
+This project is a question-answering system using Retrieval-Augmented Generation (RAG) to answer questions related to Vietnam National University (VNU) and the University of Engineering and Technology (UET).
 
 ## Data Format
 
@@ -74,6 +74,55 @@ Fetch relevant documents using similarity search
 
 + Generate answer based on query + retrieved context
 
-+ e.g. Qwen2.5, LLaMA-2-chat, Phi-2
++ e.g. LLama3
+
+## Implement 
+
+
+1. Clone repository:
+
+```bash
+git clone <repository-url>
+```
+
+2. Implement library:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Configuration `config.yaml`
+
+4. Create a .env file in the src/ directory:
+
+```bash
+HF_TOKEN=your_huggingface_token
+API_KEY=your_groq_api_key
+```
+
+
+### Batch QA
+```bash
+cd src/
+python main.py --questions ../data/test/questions.txt --output ../system_outputs/system_output_1.json
+```
+
+### Web Interface with Gradio
+```bash
+cd src/
+python app.py
+```
+
+Open your browser and go to the address shown in the terminal (usually http://127.0.0.1:7860).
+Start asking questions about VNU!
+
+## Note 
++ Uses FAISS for efficient document retrieval.
+
++ Question answering is handled by the LLaMA3-8B-8192 model.
+
++ Embedding is done using the Vietnamese bi-encoder from BKAI.
+
+
 
 
