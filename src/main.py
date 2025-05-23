@@ -34,7 +34,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default=MODEL_NAME,
+        default="llama3-8b-8192",
         help="Tên mô hình ngôn ngữ",
     )
     parser.add_argument(
@@ -63,7 +63,7 @@ def main():
         max_tokens=args.max_tokens,
     )
 
-    output_file = args.output or f"../system_outputs/batch_results.json"
+    output_file = args.output or f"../system_outputs/batch_grok_results.json"
     results = qa_system.batch_answer(args.questions, output_file)
     print(f"Đã xử lý {len(results)} câu hỏi và lưu kết quả vào: {output_file}")
 
