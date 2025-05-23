@@ -155,7 +155,7 @@ class Retriever:
             raise
 
     def retrieve_with_context(
-        self, query: str, top_k: Optional[int] = None, max_context_length: int = 2500
+        self, query: str, top_k: Optional[int] = None
     ) -> Dict[str, Any]:
         """
         Truy xuất các đoạn văn bản liên quan và kết hợp chúng thành một ngữ cảnh
@@ -180,16 +180,6 @@ class Retriever:
             if not text:
                 continue
 
-            # Kiểm tra độ dài
-            if current_length + len(text) > max_context_length:
-                # Chỉ thêm một phần nếu vượt quá giới hạn
-                remaining = max_context_length - current_length
-                if remaining > 100:  # Chỉ thêm nếu còn đủ chỗ trống
-                    text = text[:remaining]
-                    context_parts.append(text)
-                    current_length += len(text)
-                break
-
             context_parts.append(text)
             current_length += len(text)
 
@@ -198,7 +188,7 @@ class Retriever:
                 "source_file": result.get("source_file", ""),
                 "category": result.get("category", ""),
                 "chunk_id": result.get("chunk_id", ""),
-                "similarity": scores[i],
+                "distance": scores[i],
             }
             sources.append(source)
 
@@ -217,7 +207,7 @@ def main():
         top_k=8,
     )
 
-    query = "Ai là hiệu trưởng trường Đại học Công nghệ Đại học Quốc gia Hà Nội?"
+    query = "Đây là đâu"
     results, scores = retriever.search(query)
 
     print("Kết quả tìm kiếm:", results)
