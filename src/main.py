@@ -5,6 +5,8 @@ import time
 from dotenv import load_dotenv
 from retrieve import Retriever
 from answer import QASystem
+from config import load_config
+
 
 
 load_dotenv()
@@ -30,7 +32,7 @@ def main():
         required=True,
         help="Đường dẫn file chứa danh sách câu hỏi (mỗi dòng một câu)",
     )
-    parser.add_argument("--output", type=str, help="File để lưu kết quả JSON")
+    parser.add_argument("--output", type=str, help="File để lưu kết quả")
     parser.add_argument(
         "--model",
         type=str,
@@ -49,21 +51,10 @@ def main():
 
     args = parser.parse_args()
 
-    retriever = Retriever(
-        index_path="../embeddings/index.faiss",
-        metadata_path="../embeddings/metadata.json",
-        embedding_model="bkai-foundation-models/vietnamese-bi-encoder",
-        top_k=args.top_k,
-    )
+    config = load_config()
+    qa_system = QASystem.from_config(config)
 
-    qa_system = QASystem(
-        retriever=retriever,
-        model_name=args.model,
-        temperature=args.temperature,
-        max_tokens=args.max_tokens,
-    )
-
-    output_file = args.output or f"../system_outputs/batch_grok_results.json"
+    output_file = args.output or f"../system_outputs/results.txt"
     results = qa_system.batch_answer(args.questions, output_file)
     print(f"Đã xử lý {len(results)} câu hỏi và lưu kết quả vào: {output_file}")
 

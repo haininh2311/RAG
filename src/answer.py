@@ -209,17 +209,20 @@ Dựa vào thông tin trên, hãy trả lời câu hỏi sau một cách ngắn 
             # In tiến độ
             print(f"Đã xử lý {i}/{total_questions} câu hỏi")
 
-        # # Lưu tất cả kết quả vào file nếu được yêu cầu
-        # if output_file:
-        #     with open(output_file, "w", encoding="utf-8") as f:
-        #         for ans in results:
-        #             f.write(ans.strip() + "\n")
-        #     logger.info(f"Đã lưu kết quả vào: {output_file}")
-
         if output_file:
-            with open(output_file, "w", encoding="utf-8") as f:
-                json.dump(results, f, ensure_ascii=False, indent=2)
-            logger.info(f"Đã lưu kết quả vào: {output_file}")
+            if output_file.endswith(".json"):
+                with open(output_file, "w", encoding="utf-8") as f:
+                    json.dump(results, f, ensure_ascii=False, indent=2)
+                logger.info(f"Đã lưu kết quả JSON vào: {output_file}")
+
+            elif output_file.endswith(".txt"):
+                with open(output_file, "w", encoding="utf-8") as f:
+                    for result in results:
+                        answer = result["answer"]
+                        # Nối các dòng của answer thành 1 dòng duy nhất
+                        single_line_answer = " ".join(answer.splitlines()).strip()
+                        f.write(single_line_answer + "\n")
+                logger.info(f"Đã lưu kết quả TXT vào: {output_file}")
 
         return results
 
